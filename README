@@ -1,0 +1,30 @@
+SouvenirBooth
+=============
+
+SouvenirBooth Copyright (C) 2008 Pascal Zumkehr
+This program comes with ABSOLUTELY NO WARRANTY;
+This is free software, and you are welcome to redistribute it
+under certain conditions. See the file gpl.txt for more information.
+
+This program is provided as it is, there is no right to support.
+
+SouvenirBooth was developed and tested on Mac OS X 10.4
+
+You require an external tool to take pictures from a camera.
+To integrate this tool, write a subclass of ch.codez.souvenirbooth.util.CameraAdapter
+Currently, adapters for
+isightcapture (http://www.versiontracker.com/dyn/moreinfo/macosx/27190) and
+gphoto2 (www.gphoto.org) 
+are already available.
+
+Configuration of motives and backgrounds happens in the file motives.xml. 
+The number of motives and backgrounds in not limited.
+
+Configuration of general properties happens in the file souvenirbooth.properties.
+
+On Mac OS X with the gphoto2 adapter, you have to run the killptp.sh script 
+after connecting a camera and before running SouvenirBooth.
+
+And now have fun already :)
+
+->z
